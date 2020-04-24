@@ -1,0 +1,7 @@
+Theme Colors
+
+yellow - #ffd52d
+light blue - #79c5f5
+dark blue - #1b3039
+gray - #b5bfc4
+white - #ffffff
