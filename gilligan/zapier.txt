@@ -1,0 +1,10 @@
+Email Auto Responder Setup with Zapier
+
+Create filters in gmail:
+Apply "Consultations" label to emails with "Consultation" in the subject
+Archive Consultation Request forms sent from Squarespace
+Archive auto-responses sent by zapier
+
+Set up an auto-responder in Zapier that:
+Triggers when new email is received matching from:no-reply@squarespace.info label:Consultations
+BCC the autoresponse to info/consultations@gilligancontracting.com
