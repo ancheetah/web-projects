@@ -1,0 +1,67 @@
+
+    body {
+        font-family: Helvetica, Arial, sans-serif !important;
+        font-size: 10pt;
+        font-weight: 300;
+        color: OliveDrab;
+    }
+
+    .signature-container {
+        padding: 1em;
+        min-width: 360px;
+    }
+
+    .signature {
+        font-size: 11pt;
+        margin-bottom: 22pt;
+    }
+
+    .signature .name {
+        font-weight: 600;
+        color: DarkGreen;
+    }
+
+    .signature .title {
+        font-style: italic;
+        color: OliveDrab;
+    }
+
+    img.logo {
+        width: 280px;
+        max-width: 60vw;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .label,
+    .website {
+        font-weight: 400;
+        color: OliveDrab;
+    }
+
+    .social {
+        display: flex;
+    }
+
+    .social img {
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+    }
+
+    table { 
+        margin-top: 10pt;
+        font: inherit;
+        font-size: 100%; 
+        line-height: 1.2em;
+    }
+
+    @media (max-width: 450px) {
+        body {
+            font-size: 9pt;
+        }
+         img.logo { max-width: 80% }
+    }
