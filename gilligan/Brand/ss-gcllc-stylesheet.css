@@ -1,0 +1,115 @@
+//Home Page Services Descriptions
+//Kitchen - Bath - Carpentry
+.service-container { 
+  background: #F9F5E8; 
+  padding: 1rem;
+}
+
+.service-blurb {	//Text
+  line-height: 1.2em;
+  text-align: center;
+  height: 10em;
+}
+
+@media (max-width: 890px) {	//Tablet
+  .service-blurb { 
+  height: 13em;
+  }
+}
+
+@media (max-width: 650px) {	//Mobile
+  .service-blurb { 
+  height: 9em;
+  }
+}
+//-----------------------------------------------------------------------
+//General Quotation Styling
+
+.quote-block blockquote > span:first-child {	//Quotation Marks
+	float: left !important;
+	display: block;
+	font-family: "LTC Bodoni 175", "Times New Roman", serif !important;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+  	color: #7aab36;
+}
+
+.quote-block .source {	//Quote Source
+  	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 0.7em;
+	font-style: normal;
+	font-weight: 400;
+	text-align: right;
+}
+
+//Quote text/content
+.sqs-block-quote blockquote {
+  //color: #524d47;
+}
+
+//-----------------------------------------------------------------------
+//Going Green Page Styling
+.going-green {
+	text-align: center;
+}
+
+h3.going-green {
+  font-style:italic;
+}
+
+.green-highlight { 	//for green words on "going green" page
+	color: #7aab36;
+}
+
+//------------------------------------------------------------------------
+//History Page
+#h3-history {
+  text-align: center;
+  color: #7aab36;
+}
+
+//-----------------------------------------------------------------------
+//Image padding for carousel photos
+.sqs-gallery-design-strip-slide {
+  padding-right: 15px;
+}
+
+//-----------------------------------------------------------------------
+//Gallery Page Caption Styling
+.my-caption {
+  line-height: 1.1em;
+  font-weight: 500;
+  color: darkGrey;
+}
+
+.my-caption .description { 
+  font-size: 0.8em; 
+  font-weight: normal;
+}
+
+//-----------------------------------------------------------------------
+//COVID-19 Homepage
+#block-yui_3_17_2_1_1590870129639_19285 {
+  background: #ffc72c;
+  color: black;
+  padding-top: 20px;
+  margin: 0px;
+  //width: 100%;
+}
+
+#block-yui_3_17_2_1_1590870129639_19285 p{
+  line-height: 1.2em;
+  font-size: 12pt;
+}
+
+#block-yui_3_17_2_1_1590870129639_19285 a{
+  color: black;
+  text-decoration: underline;
+}
+
+//-----------------------------------------------------------------------
+//Footer
+.footnote {
+	font-size: 0.7em;
+}
