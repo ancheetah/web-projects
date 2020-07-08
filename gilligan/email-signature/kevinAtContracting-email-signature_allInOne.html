@@ -4,43 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email Signature: kevin@gilligancontracting.com</title>
-    
-    <!-- <link rel="stylesheet" href="https://www.gilligancontracting.squarespace.com/s/css-reset.css"> -->
+
+    <!-- <link rel="stylesheet" href="https://www.gilligancontracting.squarespace.com/s/css-reset.css">
+         Reset any default browser styling -->
     <style>
+
         /* Remove space around the email design. */
         html,
         body {
-
             margin: 0 auto !important;
             padding: 0 !important;
             height: 100% !important;
             width: 100% !important;
         }
 
-        /* Stop Outlook resizing small text. */
-        * {
-            -ms-text-size-adjust: 100%;
-        }
-
-        /* Stop Outlook from adding extra spacing to tables. */
-
-        table,
-        td {
-            mso-table-lspace: 0pt !important;
-            mso-table-rspace: 0pt !important;
-        }
+        /* Stop Outlook from resizing small text. */
+        * { -ms-text-size-adjust: 100%; }
 
         /* Use a better rendering method when resizing images in Outlook IE. */
-        img {
-            -ms-interpolation-mode: bicubic;
-        }
+        img { -ms-interpolation-mode: bicubic; }
 
         /* Prevent Windows 10 Mail from underlining links. Styles for underlined links should be inline. */
-        a {
-            text-decoration: none;
-        }
+        a { text-decoration: none; }
 
     </style>
+
+
     <!-- <link rel="stylesheet" href="https://www.gilligancontracting.squarespace.com/s/gcllc-signature-stylesheet.css"> -->
     <style>
         body {
@@ -103,6 +92,7 @@
             line-height: 1.2em;
         }
 
+        /* Mobile Styling */
         @media (max-width: 450px) {
             body {
                 font-size: 9pt;
@@ -115,7 +105,7 @@
     </style>
 </head>
 
-<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly;">
+<body width="100%" style="margin: 0; padding: 0 !important;">
 
     <div class="signature-container">
 
@@ -131,29 +121,23 @@
                 class="logo" alt="Gilligan Contracting Logo" title="Go to our website" width="280px" height="63"></a>
 
         <!--Contact Info-->
-        <table role="presentation" cellspacing="0" cellpadding="0">
-            <tr>
-                <td>
-                    <!--Phone Numbers-->
-                    <span class="label">Office</span> <a href="tel:7036287855">(703) 628-7855</a> | <span
-                        class="label">Fax</span> <a href="tel:7035039378">(703) 503-9378</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <!--Email-->
-                    <span class="label">Email</span> <a
-                        href="mailto:info@gilligancontracting.com">info@gilligancontracting.com</a>
-                </td>
-            </tr>
-            <td>
-                <!--Web Address-->
-                <a href="https://www.gilligancontracting.com" class="website" title="Go to our website"
-                    target="_blank">www.gilligancontracting.com</a>
-            </td>
-            </tr>
-        </table>
+        <p class="info">
 
+            <!--Phone Numbers-->
+            <span class="label">Office</span> <a href="tel:7036287855">(703) 628-7855</a> | <span
+                class="label">Fax</span> <a href="tel:7035039378">(703) 503-9378</a><br>
+
+            <!--Email-->
+            <span class="label">Email</span> <a
+                href="mailto:info@gilligancontracting.com">info@gilligancontracting.com</a><br>
+
+            <!--Web Address-->
+            <a href="https://www.gilligancontracting.com" class="website" title="Go to our website"
+                target="_blank">www.gilligancontracting.com</a><br>
+
+        </p>
+
+        <!--Social Media Icons-->
         <div class="social">
 
             <a href="https://www.facebook.com/GilliganContracting" title="Go to our Facebook" target="_blank">
@@ -165,6 +149,7 @@
                 <img src="https://static1.squarespace.com/static/5e9809abeaed196fa1690592/t/5eeabb6b18af1f7875d13dc5/1592441707513/ig-circle-20x20.png"
                     alt="Instagram" title="Go to our Instagram page" width="20px" height="20px">
             </a>
+
         </div>
 
     </div>
