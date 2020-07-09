@@ -1,8 +1,11 @@
+
+//-----------------------------------------------------------------------
 //Home Page Services Descriptions
 //Kitchen - Bath - Carpentry
+
 .service-container { 
   background: #F9F5E8; 
-  padding: 1rem;
+  padding: 2em 1em 1em 1em;
 }
 
 .service-blurb {	//Text
@@ -11,17 +14,6 @@
   height: 10em;
 }
 
-@media (max-width: 890px) {	//Tablet
-  .service-blurb { 
-  height: 13em;
-  }
-}
-
-@media (max-width: 650px) {	//Mobile
-  .service-blurb { 
-  height: 9em;
-  }
-}
 //-----------------------------------------------------------------------
 //General Quotation Styling
 
@@ -43,27 +35,29 @@
 	text-align: right;
 }
 
-//Quote text/content
-.sqs-block-quote blockquote {
-  //color: #524d47;
+//.sqs-block-quote blockquote { }
+
+//-----------------------------------------------------------------------
+//Justified Text
+
+#block-yui_3_17_2_1_1587367863177_4946, #block-2295ee87641b8c014fac p { 
+  text-align: justify; 
 }
 
 //-----------------------------------------------------------------------
-//Going Green Page Styling
-.going-green {
-	text-align: center;
-}
+//"Going Green Page"
 
-h3.going-green {
-  font-style:italic;
-}
+.going-green { text-align: center; }
+
+h3.going-green { font-style:italic;}
 
 .green-highlight { 	//for green words on "going green" page
 	color: #7aab36;
 }
 
-//------------------------------------------------------------------------
+//-----------------------------------------------------------------------
 //History Page
+
 #h3-history {
   text-align: center;
   color: #7aab36;
@@ -71,12 +65,12 @@ h3.going-green {
 
 //-----------------------------------------------------------------------
 //Image padding for carousel photos
-.sqs-gallery-design-strip-slide {
-  padding-right: 15px;
-}
+
+.sqs-gallery-design-strip-slide { padding-right: 15px; }
 
 //-----------------------------------------------------------------------
 //Gallery Page Caption Styling
+
 .my-caption {
   line-height: 1.1em;
   font-weight: 500;
@@ -89,12 +83,22 @@ h3.going-green {
 }
 
 //-----------------------------------------------------------------------
+//Floating Images
+
+#block-yui_3_17_2_1_1594242001941_5159 { 
+  float: left; 
+  width: 40%;
+  padding-right: 30px;
+}
+
+//-----------------------------------------------------------------------
 //COVID-19 Homepage
+
 #block-yui_3_17_2_1_1590870129639_19285 {
   background: #ffc72c;
   color: black;
   padding-top: 20px;
-  margin: 0px;
+  margin: 0px 17px 0px 17px;
   //width: 100%;
 }
 
@@ -109,7 +113,139 @@ h3.going-green {
 }
 
 //-----------------------------------------------------------------------
+//Five Year Warranty Disclaimer
+
+#warranty p {
+  font-size: 0.8em;
+  line-height: 1.1em;
+  text-align: justify;
+}
+
+//-----------------------------------------------------------------------
+//Social Media Logo (Compact Square)
+
+#block-yui_3_17_2_1_1594236961202_64286, #block-yui_3_17_2_1_1594240360845_10741 { //logo
+  margin: auto; 
+  padding: 20px 0px 0px 0px !important;
+} 
+
+#block-yui_3_17_2_1_1594236961202_100655, #block-yui_3_17_2_1_1594236961202_100655 p, #block-yui_3_17_2_1_1594240360845_18899, #block-yui_3_17_2_1_1594240360845_18899 p, .ig-handle { //IG handle
+  margin: 0px;
+  padding-top: 0px;
+  font-size: 0.85em;
+  font-weight: 500;
+  text-align: center;
+}
+
+//-----------------------------------------------------------------------
+//Pre-Footer Certifications
+//#block-yui_3_17_2_1_1587887131759_4623 { }
+
+//-----------------------------------------------------------------------
 //Footer
-.footnote {
-	font-size: 0.7em;
+
+.footer-text {
+  text-align: right;
+  margin: 0px;
+}
+
+.footer-contact { font-weight: 600; }	//phone and email
+
+#block-yui_3_17_2_1_1587026917087_127506 {	//Social media icons
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+//-----------------------------------------------------------------------
+//Copyright
+
+p.copyright { margin-top: 0px; line-height: 1.1em; }
+#block-yui_3_17_2_1_1594178602708_16776 { padding-top: 0px; }
+#footer .footer-inner { padding: 32px 32px 2.5em 32px; }
+
+//-----------------------------------------------------------------------
+//Tablet Media Queries
+//-----------------------------------------------------------------------
+
+@media (min-width: 641px) and (max-width: 890px) {
+
+  .footer-text { font-size: 2vw; }
+  .service-blurb { height: 13em; font-size: 2.2vw; }
+}
+
+
+
+//-----------------------------------------------------------------------
+//Mobile Media Queries
+//-----------------------------------------------------------------------
+
+@media (max-width: 640px) {
+  
+  main#page { padding-top: 25px !important; }
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.5em; }
+  
+  //Image Carousels
+  .sqs-block-content.sqs-intrinsic, .sqs-gallery-container.sqs-gallery-block-slider.sqs-gallery-has-controls.sqs-intrinsic-content {
+    height: 40vh;
+    padding-bottom: 0px !important;
+  }
+  
+  //Covid margins
+  #block-yui_3_17_2_1_1590870129639_19285 { margin-bottom: 70px; }
+  
+  //Pre-Footer Certifications  
+  #block-yui_3_17_2_1_1587887131759_4623 .sqs-gallery-design-grid-slide {
+      width: 30% !important;
+  }
+  
+  //Footer Content
+  .footer-text { 
+    //font-size: 10pt; 
+    line-height: 1.1em; 
+    text-align: center;
+  }
+  
+  //Kitchen-Bath-Carpentry service cards at top of page
+  .service-blurb { height: 9em; }
+  
+  //Social Media Logo (Compact Square)
+  #block-yui_3_17_2_1_1594236961202_64286, #block-yui_3_17_2_1_1594240360845_10741 { //logo
+    width: 30%; 
+  }
+  
+  //Floating Images
+  #block-yui_3_17_2_1_1594242001941_5159 figure .intrinsic {
+    float: none;
+    padding-right: 0px;
+  }
+  #block-yui_3_17_2_1_1594242001941_5159 {width: 90vw;}
+  
+  //Headshot
+  #block-yui_3_17_2_1_1590810778941_10218 { width: 50%; }
+  
+  
+  //Home Page Overlap Card - "Licensed Contracting Firm"
+  //-----------------------------------------------------------------------
+
+  #block-yui_3_17_2_1_1587340135069_14955 { //Container
+          margin: 50px 0px 50px 0px;
+          height: 70vh;
+    	  overflow: hidden;
+  }
+
+  #block-yui_3_17_2_1_1587340135069_14955 figcaption {	//Caption
+      width: 60%;
+      margin-top: -100%;
+  }
+
+  #block-yui_3_17_2_1_1587340135069_14955 .intrinsic { //Image
+      left: 28.5%;
+      width: 89%;
+  }
+  
+  //End Homepage Overlap Card
+  //-----------------------------------------------------------------------
+  
+  
 }
