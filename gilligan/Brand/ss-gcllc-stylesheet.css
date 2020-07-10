@@ -1,4 +1,3 @@
-
 //-----------------------------------------------------------------------
 //Home Page Services Descriptions
 //Kitchen - Bath - Carpentry
@@ -88,8 +87,25 @@ h3.going-green { font-style:italic;}
 #block-yui_3_17_2_1_1594242001941_5159 { 
   float: left; 
   width: 40%;
-  padding-right: 30px;
+  padding-right: 20px;
 }
+
+//-----------------------------------------------------------------------
+//FAQ Page
+
+/* Horizontal Ruling */
+.faq td {
+  border-top: thin solid gainsboro;
+  padding: 25px 0;
+  font-size: 0.9em;
+}
+
+/* First Column Styling */
+.faq td:first-child { font-weight: bold; }
+
+/* Column Separation */
+.faq td:nth-child(2) { padding-left: 40px !important; }
+
 
 //-----------------------------------------------------------------------
 //COVID-19 Homepage
@@ -162,6 +178,10 @@ h3.going-green { font-style:italic;}
 p.copyright { margin-top: 0px; line-height: 1.1em; }
 #block-yui_3_17_2_1_1594178602708_16776 { padding-top: 0px; }
 #footer .footer-inner { padding: 32px 32px 2.5em 32px; }
+
+//-----------------------------------------------------------------------
+//Hide elements that are for mobile display only (See gallery & faq)
+.mobile-on { display: none; }
 
 //-----------------------------------------------------------------------
 //Tablet Media Queries
@@ -247,5 +267,9 @@ p.copyright { margin-top: 0px; line-height: 1.1em; }
   //End Homepage Overlap Card
   //-----------------------------------------------------------------------
   
+  //Show/hide elements on mobile (see gallery and faq)
+  .mobile-on { display: initial; }
+  .mobile-off { display: none; }
+  #block-yui_3_17_2_1_1592786640445_258824 { display: none; } //Extra spacing in gallery
   
 }
