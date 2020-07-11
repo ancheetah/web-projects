@@ -1,0 +1,24 @@
+.container {
+    padding: 30px;
+  /*   background: olivegreen; */
+    line-height: 1.1em;
+  }
+  
+  .question {
+  /*   background: dodgerblue; */
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 2px solid gainsboro;
+    font-weight: bold;
+  }
+  
+  .answer {
+  /*   background: orange; */
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 2px solid gainsboro;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .answer { border-top: 0;}
+  }
